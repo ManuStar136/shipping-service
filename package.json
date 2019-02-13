@@ -17,10 +17,16 @@
     "testEnvironment": "node"
   },
   "devDependencies": {
-    "jest": "24.1.0"
+    "jest": "24.1.0",
+    "nock": "^10.0.6",
+    "sinon": "^7.2.3"
   },
   "bugs": {
     "url": "https://github.com/ManuStar136/shipping-service/issues"
   },
-  "homepage": "https://github.com/ManuStar136/shipping-service#readme"
+  "homepage": "https://github.com/ManuStar136/shipping-service#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4"
+  }
 }
